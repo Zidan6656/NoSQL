@@ -103,7 +103,7 @@ During this practicum, I worked with the following concepts:
 ---
 
 ## 📝 Notes
-- This project is a simple example for database learning..  
+- This project is a simple example for database learning. 
 - Can be further developed according to needs.  
 
 
