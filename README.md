@@ -12,14 +12,14 @@
 ---
 
 ## 📖 Table of Contents
-- [Description (English)](#-Desciption-English)
-- [Database Feature](#-database-feature)
-- [Files](#-files)
-- [How to Use](#-how-to-use)
-- [Main Tables](#-main-tables)
-- [Procedures & Triggers](#-procedures--trigger)
-- [ERD - Entity Relationship Diagram](#erd---entity-relationship-diagram)
+- [Description (English)](#-desciption-english)
+- [Data Source](#-data-source)
 - [Documentation Video](#-documentation-video)
+- [Practicum Overview](#-practicum-overview)
+- [Practiced NoSQL Concepts](#-practiced-nosql-concepts)
+- [NoSQL Database Type Used](#-nosql-database-type-used)
+- [Tools & Environment](#-tools--environment)
+- [Files](#-files)
 - [Notes](#-notes)
 
 ---
@@ -27,6 +27,22 @@
 ## 📌 Description (English)
 This repository is part of my personal portfolio and documents a **hands-on NoSQL database practicum** demonstrated through a video recording.
 The video showcases my practical understanding of **basic NoSQL database concepts and operations**, rather than a step-by-step tutorial.
+
+---
+## 📊 Data Source
+
+The data used in this practicum was sourced from an **official government publication** before being observed and prepared for NoSQL processing.
+
+**Provinsi Banten Dalam Angka 2024**  
+(*Banten Province in Figures 2024*)  
+
+- Publisher: **Badan Pusat Statistik (BPS) – Banten Province**
+- Release Date: February 28, 2024
+- Data Type: Official statistical data (demography, economy, social indicators)
+- Data Accessibility: Public and open data
+
+🔗 Source publication:  
+https://banten.bps.go.id/id/publication/2024/02/28/e9b15e76302d4876c37f60be/provi
 
 ---
 
@@ -39,7 +55,7 @@ Click the thumbnail below to watch the full explanation on YouTube:
   </a>
 </p>
 
-or access via the following link: https://youtu.be/8qpWJCGv_dc?si=HOYvINZ0pIbFDblY
+Or access via the following link: https://youtu.be/8qpWJCGv_dc?si=HOYvINZ0pIbFDblY
 
 ---
 ## 📌 Practicum Overview
@@ -72,34 +88,17 @@ During this practicum, I worked with the following concepts:
 
 ---
 
-## 🎯 Learning Outcomes
-
-From this practicum, I gained:
-- Practical exposure to NoSQL databases
-- A clearer understanding of schema-less data models
-- Insight into when NoSQL is more suitable than SQL
-- Experience observing basic NoSQL operations
+## 🛠 Tools & Environment
+- MongoDB
+- Visual Studio Code
+- YouTube (video documentation)
 
 ---
 ## 📂 Files
-- `rumahsakit.sql` → SQL dump from phpMyAdmin (tables, procedures, triggers, relations, sample data).  
-- `erd.png` → Entity Relationship Diagram (see below).  
--  query_examples.sql` → Sample SQL queries.  
-
----
-
-## ⚡ How to Use
-1. Prepare MySQL & phpMyAdmin.  
-2. Create a new database, e.g., `rumahsakit`.  
-3. Import files `rumahsakit.sql` via phpMyAdmin (**Import** menu).  
-4. Check that the tables and data are successfully imported into the database
-
----
-
-
-## 🔄 Procedures & Trigger
-- **Stored Procedures** → example transactions for inserting/updating patient data.  
-- **Trigger** → automatically decreases medicine stock after each transaction.  
+- `EKonomi.JSON` 
+- `Geografi.JSON`
+- `Kependudukan.JSON`
+-  query_examples.NoSQL` → Sample NoSQL queries.  
 
 ---
 
