@@ -25,8 +25,8 @@
 ---
 
 ## 📌 Description (English)
-This repository is part of my personal portfolio and showcases a **hands-on NoSQL database practice video**.  
-The video demonstrates my practical understanding of **basic NoSQL concepts and database interaction**, rather than a formal tutorial.
+This repository is part of my personal portfolio and documents a **hands-on NoSQL database practicum** demonstrated through a video recording.
+The video showcases my practical understanding of **basic NoSQL database concepts and operations**, rather than a step-by-step tutorial.
 
 ---
 
@@ -39,25 +39,48 @@ Click the thumbnail below to watch the full explanation on YouTube:
   </a>
 </p>
 
+or access via the following link: https://youtu.be/8qpWJCGv_dc?si=HOYvINZ0pIbFDblY
 
 ---
-## 📌 Topics Covered
-- Introduction to NoSQL databases
-- How to install MongoDB Shell
-- Types of NoSQL databases (Document-based, Key-Value, etc.)
-- Basic use cases of NoSQL databases
-- How to export file
+## 📌 Practicum Overview
 
----
+This practicum focuses on **applying NoSQL database concepts in practice**, including observing database behavior and 
+understanding how NoSQL systems handle data differently from relational databases.
 
-## 🗂 Database Feature
-- Tables for administrator, doctor, patient, medicine, and related relations  
-- Stored procedures for simulating database transactions  
-- Trigger to update medicine stock after each transaction  
-- Example (dummy) data in several tables  
+The video reflects my **hands-on learning process** with NoSQL databases.
 
 ---
 
+## 🔰 Practiced NoSQL Concepts
+
+During this practicum, I worked with the following concepts:
+
+- Understanding the basic idea of NoSQL databases
+- Observing schema-less data structures
+- Exploring document-based databases
+- Comparing NoSQL concepts with relational (SQL) databases
+- Recognizing real-world use cases of NoSQL
+
+---
+
+## 🗂 NoSQL Database Type Used
+
+**Document-Based NoSQL Database**
+- Data stored in JSON-like documents
+- Flexible structure without fixed schema
+- Example technology: MongoDB
+
+---
+
+## 🎯 Learning Outcomes
+
+From this practicum, I gained:
+- Practical exposure to NoSQL databases
+- A clearer understanding of schema-less data models
+- Insight into when NoSQL is more suitable than SQL
+- Experience observing basic NoSQL operations
+
+---
 ## 📂 Files
 - `rumahsakit.sql` → SQL dump from phpMyAdmin (tables, procedures, triggers, relations, sample data).  
 - `erd.png` → Entity Relationship Diagram (see below).  
