@@ -35,7 +35,7 @@ Click the thumbnail below to watch the full explanation on YouTube:
 
 <p align="center">
   <a href="https://youtu.be/8qpWJCGv_dc">
-    <img src="assets/images/nosql-video-screenshot.png" width="650"/>
+    <img src="assets/images/nosql-video-screenshot.png" width="600"/>
   </a>
 </p>
 
