@@ -1,2 +1,2 @@
 # NoSQL
-NoSQL database lab
+NoSQL database lab with MongoDB
