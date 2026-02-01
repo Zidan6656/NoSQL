@@ -1,0 +1,61 @@
+A. Use .insertMany() to Adding multiple documents to a collection
+
+1. Collection for Geografi
+db.Geografi.insertMany([
+{"Kab_kota": "Cilegon", "Ibukota": "Purwarkarta", "Luas": "162,514 km2"},
+{"Kab_kota": "Tangerang", "Ibukota": "Tigaraksa", "Luas": "1.027,757 km2"},
+{"Kab_kota": "Serang", "Ibukota": "Serang", "Luas": "1.469,908 km2"},
+{"Kab_kota": "Pandeglang", "Ibukota": "Pandeglang", "Luas": "2.771,414 km2"},
+{"Kab_kota": "Lebak", "Ibukota": "Rangkasbitung", "Luas": "3.312,180 km2"}
+])
+
+2. Collection for Kependudukan
+db.Kependudukan.insertMany([
+{"Jumlah_penduduk": "450.507 Jiwa", "Kepadatan_penduduk": "2.772 km2",
+"Persentase_penduduk": "3.66%"}, // Cilegon
+{"Jumlah_penduduk": "3.362,605 Jiwa", "Kepadatan_penduduk": "3.272 km2",
+"Persentase_penduduk": "27.32%"}, // Tangerang
+{"Jumlah_penduduk": "1.682,133 Jiwa", "Kepadatan_penduduk": "1.144 km2",
+"Persentase_penduduk": "10.67%"}, // Serang
+{"Jumlah_penduduk": "1.312,766 Jiwa", "Kepadatan_penduduk": "474 km2",
+"Persentase_penduduk": "10.67%"}, // Pandeglang
+{"Jumlah_penduduk": "1.433,698 Jiwa", "Kepadatan_penduduk": "433 km2",
+"Persentase_penduduk": "11.65%"} // Lebak
+])
+
+3. Collection for Ekonomi
+db.Ekonomi.insertMany([
+{"Upah": "Rp 4.657,223", "Pengeluaran_per_kapita": "Rp 13.663"}, // Cilegon
+{"Upah": "Rp 4.527,689", "Pengeluaran_per_kapita": "Rp 12.749"}, // Tangerang
+{"Upah": "Rp 4.492,961", "Pengeluaran_per_kapita": "Rp 11.320"}, // Serang
+{"Upah": "Rp 2.980,351", "Pengeluaran_per_kapita": "Rp 9.151"}, // Pandeglang
+{"Upah": "Rp 2.944,655", "Pengeluaran_per_kapita": "Rp 9.130"} // Lebak
+])
+
+
+
+B. Use .replaceOne() to replacing the entire document with a new document
+db.users.replaceOne(
+{ "name": "Bob" }, //searching criteria
+{ "name": "Bob", "age": 26, "email":
+"bob@example.com" } //new dokumen
+)
+
+
+C. Use .dropDatabase() to delete your entire database
+
+
+D. How to Export to .json format
+
+1. Collection Geografi
+mongoexport --db=db_054872864_Tugas2 --collection=Geografi --out=Geografi.json
+
+2. Collection Kependudukan
+mongoexport --db=db_054872864_Tugas2 --collection=Kependudukan --out=Kependudukan.json
+
+3.Coleection Ekonomi
+mongoexport --db=db_054872864_Tugas2 --collection=Ekonomi --out=Ekonomi.json
+
+Note!
+Adjust the database name to your respective database name, fill it in according to your collection name, 
+and for the out section, also fill it in according to your needs.
