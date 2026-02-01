@@ -113,7 +113,7 @@ During this practicum, I worked with the following concepts:
 > **License:** Free for learning
 
 <details>
-<summary><b> versi Bahasa Indonesia (click untuk memperluas)</b></summary>
+<summary><b> versi Bahasa Indonesia (klik untuk memperluas)</b></summary>
 
 ## 📖 Daftar Isi
 - [Deskripsi (Bahasa Indonesia)](#-deskripsi-bahasa-indonesia)
