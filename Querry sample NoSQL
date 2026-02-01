@@ -53,7 +53,7 @@ mongoexport --db=db_054872864_Tugas2 --collection=Geografi --out=Geografi.json
 2. Collection Kependudukan
 mongoexport --db=db_054872864_Tugas2 --collection=Kependudukan --out=Kependudukan.json
 
-3.Coleection Ekonomi
+3.Collection Ekonomi
 mongoexport --db=db_054872864_Tugas2 --collection=Ekonomi --out=Ekonomi.json
 
 Note!
